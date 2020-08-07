@@ -56,7 +56,9 @@ class App extends Component {
     }))
   }
 
-
+  componentDidMount(){
+    this.handleAddTimer()
+  }
 }
 
 export default App;
